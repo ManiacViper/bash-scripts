@@ -15,8 +15,11 @@ google-chrome &!
 spotify &!
 
 # start vm and display vm details
-read -p 'Enter vm name <ml5 ubuntu | ml7 ubuntu>: ' vm_name
-read -p 'Enter vm status <run | shutdown>: ' vm_control 
+#read -p 'Enter vm name <ml5 ubuntu | ml7 ubuntu>: ' vm_name
+#read -p 'Enter vm status <run | shutdown>: ' vm_control 
+
+vm_name="ml5 ubuntu"
+vm_control="run"
 
 if [ "$vm_control" == "run" ];
 then
