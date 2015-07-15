@@ -34,3 +34,6 @@ if [ "$vm_status" == "running" ];
 then echo "$vm_name" " is running"
 else echo "$vm_name" " is shutdown" 
 fi
+
+# go to development directory 
+cd /home/agile/dev/services
