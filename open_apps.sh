@@ -3,7 +3,9 @@
 # open intellij
 cd /home/agile/software/idea-IU-141.713.2/bin
 ./idea.sh &!
-cd ~
+
+# go to development directory 
+cd /home/agile/dev/services
 
 # open slack
 scudcloud &!
@@ -34,6 +36,3 @@ if [ "$vm_status" == "running" ];
 then echo "$vm_name" " is running"
 else echo "$vm_name" " is shutdown" 
 fi
-
-# go to development directory 
-cd /home/agile/dev/services
