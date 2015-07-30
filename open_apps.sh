@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# open terminal
+terminator &!
+
 # open intellij
 cd /home/agile/software/idea-IU-141.713.2/bin
 ./idea.sh &!
@@ -20,7 +23,7 @@ spotify &!
 #read -p 'Enter vm name <ml5 ubuntu | ml7 ubuntu>: ' vm_name
 #read -p 'Enter vm status <run | shutdown>: ' vm_control 
 
-vm_name="ml5 ubuntu"
+vm_name="ml7 ubuntu"
 vm_control="run"
 
 if [ "$vm_control" == "run" ];
