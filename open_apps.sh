@@ -3,6 +3,9 @@
 # open terminal
 terminator &!
 
+# open log viewer 
+glogg &!
+
 # open intellij
 cd /home/agile/software/idea-IU-141.713.2/bin
 ./idea.sh &!
