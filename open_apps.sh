@@ -7,7 +7,7 @@ terminator &!
 glogg &!
 
 # open intellij
-cd /home/agile/software/idea-IU-141.713.2/bin
+cd /home/agile/software/idea-IU-141.1532.4/bin
 ./idea.sh &!
 
 # go to development directory 
@@ -20,7 +20,7 @@ scudcloud &!
 google-chrome &!
 
 # open spotify
-spotify &!
+#spotify &!
 
 # start vm and display vm details
 #read -p 'Enter vm name <ml5 ubuntu | ml7 ubuntu>: ' vm_name
