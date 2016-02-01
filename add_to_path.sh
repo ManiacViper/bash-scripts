@@ -1,1 +1,1 @@
-export PATH=$PATH:/home/agile/software/idea-IU-141.713.2/bin
+export PATH=$PATH:/home/maniacviper/software/idea-IU-141.1010.3/bin
