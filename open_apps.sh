@@ -4,8 +4,10 @@
 terminator &!
 
 # open intellij
-cd ~/software/android-studio/bin
-./studio.sh &!
+#cd ~/software/android-studio/bin
+#./studio.sh
+cd ~/software/idea-IU-141.1010.3/bin
+./idea.sh &!
 
 #go home current project directory
 cd ~
