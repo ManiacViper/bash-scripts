@@ -20,6 +20,9 @@ sudo apt-get install curl
 echo "Installing maven"
 sudo apt-get install maven
 
+echo "Installing meld"
+sudo apt-get install meld
+
 echo "Installing dependencies for oh my zsh"
 sudo apt-get install zsh
 
