@@ -17,3 +17,6 @@ google-chrome &!
 
 # open spotify
 spotify &!
+
+# open sublime
+sublime-text
