@@ -2,7 +2,7 @@
 
 cd ~/Downloads
 
-wget http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar.gz
+#wget http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar.gz
 
 tar -xvf ~/Downloads/jdk-8u101-linux-x64.tar.gz
 
