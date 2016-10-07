@@ -29,6 +29,12 @@ sudo apt-get install terminator
 echo "Installing log viewer - glogg"
 sudo apt-get install glogg
 
+echo "Installing sdk manager"
+curl -s https://get.sdkman.io | bash && bash "$HOME/.sdkman/bin/sdkman-init.sh"
+
+echo "Installing gradle 3.1"
+sdk install gradle 3.1
+
 echo "Installing dependencies for oh my zsh"
 sudo apt-get install zsh
 
