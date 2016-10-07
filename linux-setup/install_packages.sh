@@ -23,6 +23,9 @@ sudo apt-get install maven
 echo "Installing meld"
 sudo apt-get install meld
 
+echo "Installing terminator"
+sudo apt-get install terminator
+
 echo "Installing log viewer - glogg"
 sudo apt-get install glogg
 
